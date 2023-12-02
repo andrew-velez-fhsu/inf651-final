@@ -546,3 +546,5 @@ const initApp = async() => {
     const menu = document.getElementById("selectMenu");
     menu.addEventListener("change", selectMenuChangeEventHandler, false)
 }
+
+document.addEventListener("DOMContentLoaded", initApp);
